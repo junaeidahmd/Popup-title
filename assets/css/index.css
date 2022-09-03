@@ -212,9 +212,10 @@ input{
 }
 .content{
     width:100%;
+    gap: 1%;
 }
 .content span{
-    font-size:10px;
+    font-size: 11px;
     color:#a5a5a5
 }
 #check{
@@ -230,16 +231,17 @@ select{
     width: 48%;
 }
 .selected{
-    margin-top: 8px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 2%;
+    margin-bottom: 6px;
 }
  .location{
     border:1px solid rgb(214, 214, 214);
     margin-top:0.3 rem;
     gap: 40%;
-    height:410px;
+    height:400px;
 
  }
 
@@ -260,7 +262,7 @@ select{
 }
 .locate td {
     width:1.5%;
-    padding:0px 2px;
+    padding:0px 6px;
     color:#a5a5a5
 }
 .locate th{
