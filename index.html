@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPhone Flash</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="/assets/css/index.css">
+</head>
+<body>  
+    <div class="flash-toll-header"> 
+        <p><img src="/assets/images/flash.png" alt=""> Smart Phone Flash Tool(Runtime tracking mode) 6.0.30N</p>
+        <div class="drop-option">
+            <ul>
+                <li>Options</li>
+                <li>Window</li>
+                <li>Help</li>
+                <li>Personal information</li>
+                <li>Downloader</li>
+                <li>vivo afters-sales tool QA system</li>
+            </ul>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="home-section">
+        <div class="left">
+            <div class="version">
+                <p><img src="/assets/images/loading.png" alt="loading"></i>Current country/region.india 'IN</p>
+            </div>
+            <div class="mobile-img">
+                <img src="/assets/images/mobile.png">
+            </div>
+            <div class="support-btns">
+                <input type="button"  class="button"value="Query of carrier supported frequencey band">
+                <input type="button" class="button"value="Query of best matches for vivo phones">
+                <input type="button" class="button"value="Query of frequencey bands for shared by">
+            </div>
+            <div class="information">
+                <p><span class="s1">Factory barcode:</span><span class="s2"></span><input type="text" class="input"></p>
+                <p><span class="s1">Status:</span><span class="s2"></span><input type="text"class="input"></p>
+                <p><span class="s1">Current barcode:</span><span class="s2"></span><input type="text"class="input"></p>
+                <p><span class="s1">Status:</span><span class="s2"></span><input type="text"class="input"></p>
+                <p><span class="s1">Phone version:</span><span class="s2"></span><input type="text"class="input"></p>
+            </div>
+            <div class="oem">
+                <span><spna class="s3">oem:</spna><span class="s4"><input type="text"></span></span>
+                <span><spna class="s3">vgc:</spna><span class="s4"><input type="text"></span></span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="home-side">
+                <button type="button" class="active">Qualcomm platform upgrade</button>
+                <button type="button">MTK platform upgrade</button>
+                <button type="button">Samsung platform upgrade</button>
+                <button type="button">Incremental upgrade</button>
+                <button type="button">AT command tool</button>
+                <button type="button">Smart Flash</button>
+            </div>
+            <div class="line"></div>
+            <div class="process">
+                <div class="loading">
+                    <button class="btn"><span><img src="/assets/images/Download.png" alt=""><p></p></span></button>
+                    <button class="btn"><span><img src="/assets/images/stop.png" alt="stop"><p></p></span></button>
+                    
+                    <button class="btn"><span><img src="/assets/images/read.png" alt="read"><p></p></span></button>
+                </div>
+                <div class="grey">
+                    <div class="folder">
+                        <span><p>Software package folder</p><input id="folder"type="text" style="width:100%"> <button class="btnn" onclick="myfunction()"><img src="/assets/images/folder.png" alt="">Select</button></span>
+                        <input type="file" id="files">
+                    </div>
+                    <div class="selected">
+                        <select>
+                            <option value="Fastboot-9008 flashing (retain parameters)">Fastboot-9008 flashing (retain parameters)</option>
+                            <option value="Fastboot-9008 flashing (retain parameters)">Fastboot-9008 flashing (retain parameters)</option>
+                            <option value="Fastboot-9008 flashing (retain parameters)">Fastboot-9008 flashing (retain parameters)</option>
+                            <option value="Fastboot-9008 flashing (retain parameters)">Fastboot-9008 flashing (retain parameters)</option>
+                            <option value="Fastboot-9008 flashing (retain parameters)">Fastboot-9008 flashing (retain parameters)</option>
+                        </select>
+                        <div class="content">
+                            <span><input type="checkbox" name="" id="check">Aitomatically identify upgrade method</span>
+                            <span><input type="checkbox" name="" id="check">Do not perform MDS check</span>
+                            <span><input type="checkbox" name="" id="check">Check "userdata"</span>
+                            <span><input type="checkbox" name="" id="check">The new version</span>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <table style="width:100%"border=1 class="locate">
+                            <tr>
+                              <td class="first"><input type="checkbox" name="" id=""></td>
+                              <td>Name</td>
+                              <th style="text-align:center">Location</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="percentage">
+                <span>0%</span>
+            </div>
+            <div class="speed">
+                <table class="table table-bordered" id="sp-table">
+
+                    <tbody>
+                      <tr>
+                        <td style="width:8%">0 /BS</td>
+                        <td style="width:8%">0 Bytes</td>
+                        <td style="width:4%"></td>
+                        <td   style="width:4%"></td>
+
+                        <td style="width:8%">High Speed</td>
+                        <td style="width:8%">0:0</td>
+                        <td></td>
+
+                      </tr>
+
+
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/index.js"></script>
+</body>     
+</html>
