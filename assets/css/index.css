@@ -92,7 +92,7 @@ button{
     border-radius: 10px;
     outline: none;
     overflow: hidden;
-    border-width:1px;
+    border-width: 0.1px;
     border-color:rgb(207, 195, 195);
     background-color: rgb(233, 233, 233);
     margin: 2px;
@@ -108,7 +108,7 @@ label{
     font-size:9px;
 }
 
-input{
+input[type='text']{
 
     line-height: 15px;
     border: 1px solid rgb(197, 197, 197);
@@ -164,19 +164,18 @@ input{
     padding:0.4rem;
 }
 .loading{
-    margin-top: 1rem;
+    margin-top:0.2rem;
     display: flex;
     gap: 4%;
     margin-left:2%;
 }
 .folder{
     background-color: #f1eeee;
-
 }
 .grey{
     background-color: #f1eeee;
     padding:7px;
-    height: 474px;
+    height: 497px;
 }
 .folder span{
     display:flex;
@@ -191,6 +190,7 @@ input{
     outline:none !important;
     gap: 8%;
     border: 1px solid grey;
+    color:#a5a5a5;
     align-items: center;
 }
 .btnn img{
@@ -198,7 +198,7 @@ input{
 }
 #folder{
     width:100%;
-    background-color: rgb(194, 225, 246);
+    background-color: rgb(149 188 214);
 }
 #files{
     display:none;
@@ -208,40 +208,49 @@ input{
     width: 13%;
     display: flex;
     margin: 0;
+    color:#a5a5a5;
     white-space: nowrap;
 }
 .content{
-    width:100%;
+    width: 69%;
     gap: 1%;
+    font-family: sans-serif;
 }
 .content span{
-    font-size: 11px;
+    font-size: 9px;
     color:#a5a5a5
 }
+.enhance span{
+font-size: 11px;
+color: #a5a5a5;
+white-space:nowrap;
+font-family: sans-serif;
+}
 #check{
-    height: 10px;
-    width: 15px;
+    height: 9px;
+    width: 14px;
 }
 select{
-    width: 26%;
-    font-size: 9px;
+    width: 19%;
+    font-size: 8px;
 }
 .input{
     
     width: 48%;
 }
 .selected{
-    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 2%;
     margin-bottom: 6px;
+    margin-top: 6px;
+    justify-content: revert;
 }
  .location{
     border:1px solid rgb(214, 214, 214);
     margin-top:0.3 rem;
     gap: 40%;
-    height:400px;
+    height:427px;
 
  }
 
@@ -293,4 +302,7 @@ select{
     padding:4px;
     text-align: right;
 
+}
+input[type="checkbox"] {
+    accent-color: #ffffff;
 }
