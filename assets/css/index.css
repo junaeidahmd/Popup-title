@@ -60,7 +60,7 @@ button{
 }
 .left{
     display: table-cell;
-    width: 15.5%;
+    width: 13.7%;
     text-align: center;
 }
 .left p{
@@ -80,16 +80,18 @@ button{
     width:7%;
 }
 .support-btns{
-    margin-top:2rem;
+    margin-top: 3rem !important;
+    max-width: 173px;
+    margin:auto;
 }
 .support-btns .button{
     font-size: 9px;
-    width: 80%;
+    width: 88%;
     font-weight: 350;
-    padding: 6px 5px;
+    padding: 4px 5px;
     margin: auto;
     white-space: nowrap;
-    border-radius: 10px;
+    border-radius: 6px;
     outline: none;
     overflow: hidden;
     border-width: 0.1px;
@@ -99,17 +101,17 @@ button{
 }
 .information{
     background-color: rgb(233, 233, 233);
-    max-width:166px;
-    margin:auto;
-    margin-top:0.2rem;
-    padding:4px;
+    max-width: 157px;
+    margin-top: 0.2rem;
+    padding: 5px;
+    margin-left: 16px;
 }
 label{
     font-size:9px;
 }
 
 input[type='text']{
-
+    width: 47%;
     line-height: 15px;
     border: 1px solid rgb(197, 197, 197);
     outline:none !important;
@@ -120,7 +122,8 @@ input[type='text']{
 .s1{
     display: inline-block;
     width: 50%;
-    font-size:9px;
+    font-size:8.5px;
+    font-family: sans-serif;
     background-color: #fbfcfd;
     margin-right: 3px;
 }
@@ -175,7 +178,7 @@ input[type='text']{
 .grey{
     background-color: #f1eeee;
     padding:7px;
-    height: 497px;
+    height: 624px;
 }
 .folder span{
     display:flex;
@@ -184,7 +187,7 @@ input[type='text']{
 }
 .btnn{
     font-size: 9px;
-    padding: 2px 17px;
+    padding: 2px 23px;
     border-radius: 7px;
     display:flex;
     outline:none !important;
@@ -196,6 +199,7 @@ input[type='text']{
 .btnn img{
     width:40%;
 }
+
 #folder{
     width:100%;
     background-color: rgb(149 188 214);
@@ -212,13 +216,17 @@ input[type='text']{
     white-space: nowrap;
 }
 .content{
-    width: 69%;
-    gap: 1%;
+    width: 71%;
+    gap: 0.6%;
     font-family: sans-serif;
 }
 .content span{
     font-size: 9px;
-    color:#a5a5a5
+    color:#8b8b8b;
+
+    font-weight: 400;
+    font-family: sans-serif;
+
 }
 .enhance span{
 font-size: 11px;
@@ -228,11 +236,13 @@ font-family: sans-serif;
 }
 #check{
     height: 9px;
-    width: 14px;
+    width: 16px;
 }
+
 select{
     width: 19%;
-    font-size: 8px;
+    font-size: 9px;
+    height: 19px;
 }
 .input{
     
@@ -241,7 +251,7 @@ select{
 .selected{
     display: flex;
     align-items: center;
-    gap: 2%;
+    gap: 1%;
     margin-bottom: 6px;
     margin-top: 6px;
     justify-content: revert;
@@ -250,8 +260,7 @@ select{
     border:1px solid rgb(214, 214, 214);
     margin-top:0.3 rem;
     gap: 40%;
-    height:427px;
-
+    height:553px;
  }
 
 
